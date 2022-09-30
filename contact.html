@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h2><u>My Contact Details</u></h2>
+        </legend>
+        <p>Name : Aabhas Agrawal</p>
+        <p>Mobile : 9873880322</p>
+        <p>Email : theaabhasagrawal@gmail.com</p>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h2><u>Leave a Message</u></h2>
+        </legend>
+        <form action="mailto:theaabhasagrawal@gmail.com" enctype="text/plain">
+            <table cellspacing="10">
+                <tr>
+                    <td>
+                        <label>Your Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" checked>Male
+                        <input type="radio" name="gender">Female
+                        <input type="radio" name="gender">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date of Birth:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="dob" value="dob">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>E-mail Address:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Phone Number:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="mobile">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Message:</label>
+                    </td>
+                    <td>
+                        <textarea name="message" rows="10" cols="60">Enter your Message here...</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Upload Resume:</label>
+                    </td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="submit" value="Submit">
+                    </td>
+                    <td>
+                        <input type="submit" name="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
