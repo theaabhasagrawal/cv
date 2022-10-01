@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact me</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body
+        {
+            background-color: rgb(250, 238, 251);
+        }
+    </style>
 </head>
 <body>
     <fieldset>
@@ -23,10 +30,10 @@
             <table cellspacing="10">
                 <tr>
                     <td>
-                        <label>Your Name:</label>
+                        <label for="name">Your Name:</label>
                     </td>
                     <td>
-                        <input type="text" name="name" required>
+                        <input type="text" id="name" name="name" required>
                     </td>
                 </tr>
                 <tr>
@@ -41,42 +48,42 @@
                 </tr>
                 <tr>
                     <td>
-                        <label>Date of Birth:</label>
+                        <label for="dob">Date of Birth:</label>
                     </td>
                     <td>
-                        <input type="date" name="dob" value="dob">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>E-mail Address:</label>
-                    </td>
-                    <td>
-                        <input type="email" name="email">
+                        <input type="date" id="dob" name="dob" value="dob">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label>Password:</label>
+                        <label for="email">E-mail Address:</label>
                     </td>
                     <td>
-                        <input type="password" name="password">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>Phone Number:</label>
-                    </td>
-                    <td>
-                        <input type="tel" name="mobile">
+                        <input type="email" id="email" name="email">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label>Message:</label>
+                        <label for="password">Password:</label>
                     </td>
                     <td>
-                        <textarea name="message" rows="10" cols="60">Enter your Message here...</textarea>
+                        <input type="password" id="password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mobile">Phone Number:</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="mobile" name="mobile">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="message">Message:</label>
+                    </td>
+                    <td>
+                        <textarea name="message" id="message" rows="10" cols="60">Enter your Message here...</textarea>
                     </td>
                 </tr>
                 <tr>
