@@ -1,0 +1,49 @@
+/* Here 'body' is called 'selector', 'background-color' is called 'property' and the 'colour inside' is called 'value' */
+body 
+{
+    background-color: rgb(219, 250, 255);
+}
+hr
+{
+    border-color: rgb(47, 144, 255);
+    border-style:none;
+    border-top-style: dotted;
+    height: 0px;
+    width: 4%;
+    border-width: 5px;
+}
+img
+{
+    border-radius: 50%;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    height: 150px; width: 150px;
+}
+h1
+{
+    color: black;
+}
+h2
+{
+    color: rgb(174, 0, 0)
+}
+h3 /*TAG SELECTOR*/
+{
+    color: rgb(73, 85, 189);
+    
+}
+.timeline /*CLASS SELECTOR*/
+{
+    color: rgb(73, 85, 189);
+}
+#heading /*ID SELECTOR*/
+{
+    color: rgb(255, 255, 255);
+}
+/*--------DIFFERENCE BETWEEN ID AND SELECTOR--------*/
+/*ID is unique and can only be used once while CLASS can be used multiple times to group similar elements. */
+/* CLASS can be used multiple in a single tag */
+label:hover
+{
+    color: red;
+}
